@@ -27,10 +27,12 @@ ul
 ```
 
 Jade doesn't need any help using this data, but what if you want to pass it
-along to other tools? That's where `jade-var-matter` is useful:
+along to other tools? That's where `jade-var-matter` is useful (in the
+following, `jadeString` refers to the Jade snippet above):
 
 ```javascript
-var matter = require('jade-var-matter');
-matter(jadeString);
-> { baz: 5, list: [ 1, 2, 3 ], bar: 3, foo: 2, bax: 20 }
+> var matter = require('jade-var-matter');
+undefined
+> matter(jadeString);
+{ baz: 5, list: [ 1, 2, 3 ], bar: 3, foo: 2, bax: 20 }
 ```
