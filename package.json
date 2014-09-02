@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/jessaustin/jade-var-matter",
   "devDependencies": {
-    "coffee-script": ">=1.7", "tape": ">=2.14", "through2-spy": ">=1.2"
+    "coffee-script": ">=1.7", "tape": ">=2.14"
   },
   "main": "jade-var-matter.js",
   "scripts": {
