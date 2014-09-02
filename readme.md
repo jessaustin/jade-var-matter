@@ -12,7 +12,7 @@ Lots of [markdown files](http://daringfireball.net/projects/markdown/) have
 [modules](https://github.com/lmtm/gulp-front-matter) can parse YAML and [other
 stuff](https://github.com/jsantell/node-json-front-matter) from Markdown text.
 What if you're using [Jade](http://jade-lang.com/) instead? You can't just
-plunk some YAML on the front, but fortunately you don't need to! All the
+chuck some YAML at the top, but fortunately you don't need to! All the
 file-specific variables you're using in your Jade file are already there, in
 regular old javascript `var`s:
 
@@ -32,5 +32,5 @@ along to other tools? That's where `jade-var-matter` is useful:
 ```javascript
 var matter = require('jade-var-matter');
 matter(jadeString);
-> { z: 5, list: [ 1, 2, 3 ], bar: 3, foo: 2, bax: 20 }
+> { baz: 5, list: [ 1, 2, 3 ], bar: 3, foo: 2, bax: 20 }
 ```
