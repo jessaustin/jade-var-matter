@@ -1,7 +1,7 @@
 {
   "name": "jade-var-matter",
   "version": "0.0.0",
-  "description": "Like front-matter/json-front-matter, except for Jade files",
+  "description": "Like front-matter, except for Jade files",
   "keywords": [ "front-matter", "jade" ],
   "author": "Jess Austin <jess.austin@gmail.com>",
   "license": "MIT",
