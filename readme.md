@@ -17,8 +17,20 @@ file-specific variables you're using in your Jade file are already there, in
 regular old javascript `var`s:
 
 ```jade
-- var name='foo', next='bar'
+- var foo = 2;
+- var bar = 3, list = [1, 2, 3]
+ul
+  for item in list
+    - var baz = 5, bax = baz * 4;
+    li
+      =item
 ```
 
 Jade doesn't need any help using this data, but what if you want to pass it
 along to other tools? That's where `jade-var-matter` is useful:
+
+```javascript
+var matter = require('jade-var-matter');
+matter(jadeString);
+> { z: 5, list: [ 1, 2, 3 ], bar: 3, foo: 2, bax: 20 }
+```
