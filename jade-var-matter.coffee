@@ -5,8 +5,7 @@
  defines javascript `var`s.
 ###
 
-runInNewContext = require 'vm'
-  .runInNewContext
+{runInNewContext} = require 'vm'
 
 regex = /(?:^|[\n;]) *- *(var [^\n;]*)[;\n]/g
 
