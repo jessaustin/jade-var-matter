@@ -1,6 +1,6 @@
 {
   "name": "jade-var-matter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Like front-matter, except for Jade files",
   "keywords": [
     "front-matter",
