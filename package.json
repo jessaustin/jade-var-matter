@@ -19,7 +19,7 @@
   },
   "main": "jade-var-matter.js",
   "scripts": {
-    "prepublish": "node_modules/.bin/coffee -c jade-var-matter.coffee",
-    "test": "node_modules/.bin/coffee test.coffee"
+    "prepublish": "coffee -c jade-var-matter.coffee",
+    "test": "coffee test.coffee"
   }
 }

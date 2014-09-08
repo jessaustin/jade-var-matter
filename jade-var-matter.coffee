@@ -12,6 +12,5 @@ regex = /(?:^|[\n;]) *- *(var [^\n;]*)[;\n]/g
 module.exports = (jadeString='') ->
   matches = (while arr = regex.exec jadeString then arr[1] + ';')
     .join '\n'
-  sandbox = {}
-  runInNewContext matches, sandbox
+  runInNewContext matches, sandbox = {}
   sandbox
