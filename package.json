@@ -15,11 +15,12 @@
   "homepage": "https://github.com/jessaustin/jade-var-matter",
   "devDependencies": {
     "coffee-script": ">=1.7",
+    "ibrik": ">=1.1",
     "tape": ">=2.14"
   },
   "main": "jade-var-matter.js",
   "scripts": {
     "prepublish": "coffee -c jade-var-matter.coffee",
-    "test": "coffee test.coffee"
+    "test": "ibrik cover test.coffee"
   }
 }
