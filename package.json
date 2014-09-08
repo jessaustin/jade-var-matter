@@ -21,6 +21,7 @@
   "main": "jade-var-matter.js",
   "scripts": {
     "prepublish": "coffee -c jade-var-matter.coffee",
+    "postpublish": "rm *.js",
     "test": "ibrik cover test.coffee"
   }
 }
