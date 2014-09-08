@@ -7,7 +7,7 @@ jade-var-matter
 [![NPM](https://nodei.co/npm/jade-var-matter.png)](https://nodei.co/npm/jade-var-matter/ "npmjs")
 
 Lots of [markdown files](http://daringfireball.net/projects/markdown/) have
-[Yaml front matter](http://jekyllrb.com/docs/frontmatter/), and that's cool.
+[YAML front matter](http://jekyllrb.com/docs/frontmatter/), and that's cool.
 [Various](https://github.com/jxson/front-matter)
 [modules](https://github.com/lmtm/gulp-front-matter) can parse YAML and [other
 stuff](https://github.com/jsantell/node-json-front-matter) from Markdown text.
