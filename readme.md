@@ -2,6 +2,7 @@ jade-var-matter
 ===============
 
 [![Build Status](https://travis-ci.org/jessaustin/jade-var-matter.svg?branch=master)](https://travis-ci.org/jessaustin/jade-var-matter "Travis")
+[![Coverage Status](https://coveralls.io/repos/jessaustin/jade-var-matter/badge.png?branch=master)](https://coveralls.io/r/jessaustin/jade-var-matter?branch=master "Coveralls")
 [![Dependency Status](https://david-dm.org/jessaustin/jade-var-matter.svg)](https://david-dm.org/jessaustin/jade-var-matter "David")
 [![devDependency Status](https://david-dm.org/jessaustin/jade-var-matter/dev-status.svg)](https://david-dm.org/jessaustin/jade-var-matter#info=devDependencies "David for dev dependencies")
 [![NPM](https://nodei.co/npm/jade-var-matter.png)](https://nodei.co/npm/jade-var-matter/ "npmjs")
