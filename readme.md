@@ -5,7 +5,7 @@ jade-var-matter
 [![Coverage Status](https://coveralls.io/repos/jessaustin/jade-var-matter/badge.png?branch=master)](https://coveralls.io/r/jessaustin/jade-var-matter?branch=master "Coveralls")
 [![Dependency Status](https://david-dm.org/jessaustin/jade-var-matter.svg)](https://david-dm.org/jessaustin/jade-var-matter "David")
 [![devDependency Status](https://david-dm.org/jessaustin/jade-var-matter/dev-status.svg)](https://david-dm.org/jessaustin/jade-var-matter#info=devDependencies "David for dev dependencies")
-[![NPM](https://nodei.co/npm/jade-var-matter.png)](https://nodei.co/npm/jade-var-matter/ "npmjs")
+[![NPM](https://nodei.co/npm/jade-var-matter.png?compact=true)](https://nodei.co/npm/jade-var-matter/ "npmjs")
 
 Lots of [markdown files](http://daringfireball.net/projects/markdown/) have
 [YAML front matter](http://jekyllrb.com/docs/frontmatter/), and that's cool.
