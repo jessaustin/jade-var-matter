@@ -1,13 +1,13 @@
 jade-var-matter
 ===============
 
-[![Build Status](https://travis-ci.org/jessaustin/jade-var-matter.svg?branch=master)](https://travis-ci.org/jessaustin/jade-var-matter "Travis")
-[![Coverage Status](https://coveralls.io/repos/jessaustin/jade-var-matter/badge.png?branch=master)](https://coveralls.io/r/jessaustin/jade-var-matter?branch=master "Coveralls")
-[![Dependency Status](https://david-dm.org/jessaustin/jade-var-matter.svg)](https://david-dm.org/jessaustin/jade-var-matter "David")
-[![devDependency Status](https://david-dm.org/jessaustin/jade-var-matter/dev-status.svg)](https://david-dm.org/jessaustin/jade-var-matter#info=devDependencies "David for dev dependencies")
-[![NPM](https://nodei.co/npm/jade-var-matter.png?compact=true)](https://nodei.co/npm/jade-var-matter/ "npmjs")
+[![Build Status][travis-img]][travis-url]
+[![Coverage Status][cover-img]][cover-url]
+[![Dependency Status][david-img]][david-url]
+[![devDependency Status][david-dep-img]][david-dep-url]
+[![NPM][npmjs-img]][npmjs-url]
 
-Lots of [markdown files](http://daringfireball.net/projects/markdown/) have
+Lots of [markdown](http://daringfireball.net/projects/markdown/) files have
 [YAML front matter](http://jekyllrb.com/docs/frontmatter/), and that's cool.
 [Various](https://github.com/jxson/front-matter)
 [modules](https://github.com/lmtm/gulp-front-matter) can parse YAML and [other
@@ -37,3 +37,14 @@ undefined
 > matter(jadeString);
 { baz: 5, list: [ 1, 2, 3 ], bar: 3, foo: 2, bax: 20 }
 ```
+
+[travis-url]: https://travis-ci.org/jessaustin/jade-var-matter "Travis"
+[travis-img]: https://travis-ci.org/jessaustin/jade-var-matter.svg?branch=master
+[cover-url]: https://coveralls.io/r/jessaustin/jade-var-matter?branch=master "Coveralls"
+[cover-img]: https://coveralls.io/repos/jessaustin/jade-var-matter/badge.png?branch=master
+[david-url]: https://david-dm.org/jessaustin/jade-var-matter "David"
+[david-img]: https://david-dm.org/jessaustin/jade-var-matter.svg
+[david-dep-url]: https://david-dm.org/jessaustin/jade-var-matter#info=devDependencies "David for dev dependencies"
+[david-dep-img]: https://david-dm.org/jessaustin/jade-var-matter/dev-status.svg
+[npmjs-url]: https://nodei.co/npm/jade-var-matter/ "npmjs"
+[npmjs-img]: https://nodei.co/npm/jade-var-matter.png?compact=true
