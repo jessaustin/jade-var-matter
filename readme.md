@@ -15,7 +15,7 @@ stuff](https://github.com/jsantell/node-json-front-matter) from Markdown text.
 What if you're using [Jade](http://jade-lang.com/) instead? You can't just
 chuck some YAML at the top, but fortunately you don't need to! All the
 file-specific variables you're using in your Jade file are already there, in
-regular old javascript `var`s:
+regular old javascript *vars*:
 
 ```jade
 - var foo = 2;
