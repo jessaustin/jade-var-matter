@@ -1,7 +1,7 @@
 {
   "name": "jade-var-matter",
   "version": "0.0.3",
-  "description": "Like front-matter, except for Jade files",
+  "description": "like front-matter, except for Jade files",
   "keywords": [
     "front-matter",
     "jade"
@@ -15,6 +15,7 @@
   "homepage": "https://github.com/jessaustin/jade-var-matter",
   "devDependencies": {
     "coffee-script": ">=1.7",
+    "coveralls": ">=2.11",
     "ibrik": ">=1.1",
     "tape": ">=2.14"
   },
@@ -22,6 +23,6 @@
   "scripts": {
     "prepublish": "coffee -c jade-var-matter.coffee",
     "postpublish": "rm *.js",
-    "test": "ibrik cover test.coffee"
+    "test": "ibrik cover test.coffee && coveralls < coverage/lcov.info"
   }
 }

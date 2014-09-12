@@ -1,7 +1,7 @@
 matter = require './jade-var-matter'
 test   = require 'tape'
 
-             # we need these newlines
+# doesn't actually test with newlines once coffeescript eats them
 testString = '- var foo = 2;
               - var bar = 3, list = [1, 2, 3];
               ul
