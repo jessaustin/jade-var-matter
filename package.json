@@ -23,6 +23,7 @@
   "scripts": {
     "prepublish": "coffee -c jade-var-matter.coffee",
     "postpublish": "rm *.js",
-    "test": "ibrik cover test.coffee && coveralls < coverage/lcov.info"
+    "test": "ibrik cover test.coffee",
+    "posttest": "coveralls < coverage/lcov.info 2> /dev/null ; true"
   }
 }
